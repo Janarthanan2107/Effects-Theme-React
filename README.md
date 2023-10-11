@@ -4,7 +4,7 @@ A brief description of your React application.
 
 ## Live Demo
 
-You can access a live demo of this project [here](https://super-maamoul-efc7c8.netlify.app/).
+You can access a live demo of this project [here](https://tranquil-praline-e31980.netlify.app/).
 
 ## Installation
 
