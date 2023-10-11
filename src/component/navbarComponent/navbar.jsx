@@ -10,18 +10,14 @@ const Navbar = ({ dark, setDark }) => {
   return (
     <div
       className={`flex justify-between items-center h-16 p-3 font-semibold ${
-        dark ? "bg-black border-b border-gray-50" : "bg-white border-b border-gray-300"
+        dark
+          ? "bg-gray-800 border-b border-gray-50"
+          : "bg-white border-b border-gray-300"
       }`}
     >
-      <div className="text-violet-600 flex gap-2">
+      <div className={`${dark ? "text-white" : "text-violet-600"} flex gap-2`}>
         <img src="vite.svg" alt="logo" />
-        <h1 className="text-[1.5rem] underline">React</h1>
-      </div>
-      <div className="text-gray-500">
-        <h1 className="text-[1.2rem]">
-          Typing Effects.. <span className="text-purple-700">&</span> Theme
-          setup..
-        </h1>
+        <h1 className="text-[1.5rem] underline underline-offset-8">React</h1>
       </div>
       <div
         className={`text-[1.5rem] flex gap-4 ${
