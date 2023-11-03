@@ -1,5 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 
+// getting the prop value from app.js for theme
 const Home = ({ dark }) => {
   return (
     <div
